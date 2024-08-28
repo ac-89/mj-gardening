@@ -926,11 +926,13 @@
 	.grd_title-type-2 {
 	    margin-top: 0;
 	    position: relative;
+		color: #fff;
 	}
 	
 	.grd_title-type-2 .title {
 	    padding-top: 27px;
-	    padding-bottom: 10px
+	    padding-bottom: 10px;
+		color:#fff
 	}
 	
 	.grd_title-type-2 .title:before {
@@ -12668,7 +12670,7 @@
 	}
 	
 	.request-form-1 {
-	    background: url(../images/bg/contact-form-home.jpg) center center no-repeat;
+	    background: url(../images/contact-bg.jpg) center center no-repeat;
 	    background-size: cover;
 	    padding: 100px 0 120px;
 	}
