@@ -175,46 +175,46 @@
 	
 	
 	//Portfolio gallery
-	$(function(){
-		var $grid = $('.grd-masonry').isotope({
-		   itemSelector: '.portfolio-item',
-		   percentPosition: true,
-		  masonry: {
-			columnWidth: '.grid-sizer'
-		  }	   
-		});
+	// $(function(){
+	// 	var $grid = $('.grd-masonry').isotope({
+	// 	   itemSelector: '.portfolio-item',
+	// 	   percentPosition: true,
+	// 	  masonry: {
+	// 		columnWidth: '.grid-sizer'
+	// 	  }	   
+	// 	});
 		
-		// filter items on button click
-		$('.nav-filter').on( 'click', 'a', function(e) {
-			e.preventDefault();
-		  var filterValue = $(this).attr('data-filter');
-		  $grid.isotope({ filter: filterValue });
-		  $(this).addClass('active');
-		  $(this).parents().siblings().children().removeClass('active');
+	// 	// filter items on button click
+	// 	$('.nav-filter').on( 'click', 'a', function(e) {
+	// 		e.preventDefault();
+	// 	  var filterValue = $(this).attr('data-filter');
+	// 	  $grid.isotope({ filter: filterValue });
+	// 	  $(this).addClass('active');
+	// 	  $(this).parents().siblings().children().removeClass('active');
 		  
-		});			
+	// 	});			
 						
-	});	
+	// });	
 	
-	$(function(){
-		var $grid = $('.filterlist').isotope({
-		   itemSelector: '.portfolio-item',
-			layoutMode: 'fitRows',
+	// $(function(){
+	// 	var $grid = $('.filterlist').isotope({
+	// 	   itemSelector: '.portfolio-item',
+	// 		layoutMode: 'fitRows',
 			
 
-		});
-		// filter items on button click
-		$('.nav-filter').on( 'click', 'a', function(e) {
-			e.preventDefault();
-		  var filterValue = $(this).attr('data-filter');
-		  $grid.isotope({ filter: filterValue });
-		  $(this).addClass('active');
-		  $(this).parents().siblings().children().removeClass('active');
+	// 	});
+	// 	// filter items on button click
+	// 	$('.nav-filter').on( 'click', 'a', function(e) {
+	// 		e.preventDefault();
+	// 	  var filterValue = $(this).attr('data-filter');
+	// 	  $grid.isotope({ filter: filterValue });
+	// 	  $(this).addClass('active');
+	// 	  $(this).parents().siblings().children().removeClass('active');
 		  
-		});	
+	// 	});	
 			
 		
-	});		
+	// });		
 
 	//--testimonial-list----
 	if ($('.testone-slide').length) {
