@@ -877,9 +877,12 @@
               <p>We have completed 1000s of succesful projects.</p>
             </div>
           </div>
-          <div class="col-xl-12 row grd-portfolio-shortcode">
+          <div id="my-gallery" style="max-width: 80%; margin: auto"></div>
+          <!-- <div class="col-xl-12 row grd-portfolio-shortcode">
             <div class="col-lg-6 portfolio-item">
               <div class="content-item">
+                    
+
                 <div class="beforeAfter">
                   <img src="images/landscaping-before-cropped.jpg" />
 
@@ -945,7 +948,7 @@
             
          
             
-          </div>
+          </div> -->
           <div class="grd-button-group grd-align-center">
             
           </div>
@@ -1837,6 +1840,21 @@
             bulletColor: '#fafafa',
 
       });
+    </script>
+     <script
+      src="https://product-gallery.cloudinary.com/all.js"
+      type="text/javascript"
+      
+    ></script>
+     <script type="text/javascript">
+      const myGallery = cloudinary.galleryWidget({
+        container: "#my-gallery",
+        cloudName: "dcmlljv4l",
+        mediaAssets: [{ tag: "mj" }], // by default mediaType: "image"
+        carouselLocation:"bottom",
+        transition:"fade"
+      });
+      myGallery.render();
     </script>
 
     <!-- script JS  -->
